@@ -1,0 +1,20 @@
+/* start header  section */
+.packeges-header {
+    width: 100%;
+    padding: 130px 0px;
+    margin-bottom: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .packeges-header h2 {
+      margin-bottom: 8px;
+      color: #ffffff;
+      font-size: 50px;
+      line-height: 60px;
+      text-transform: capitalize;
+      font-weight: 700;
+    }

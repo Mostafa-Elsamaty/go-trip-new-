@@ -1,0 +1,140 @@
+/* start favourite Places  section */
+
+.favouritePlaces-title {
+    width: 100%;
+    text-align: center;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2px;
+  }
+  .favouritePlaces-title p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    color: #ffb400;
+    text-transform: uppercase;
+  }
+  .favouritePlaces-title h2 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 95px;
+    color: #191d34;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-spacing: 2px;
+  }
+  .icon {
+      margin-right: 10px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .favouritePlaces {
+  margin: 200px 0px;
+  font-family: "Barlow Condensed", sans-serif;
+  }
+  .favouritePlace {
+      display: flex;
+      gap: 20px;
+  }
+  
+  @media (max-width :768px) {
+    .favouritePlace {
+      padding: 0 30px;
+      
+     
+  }
+  }
+  .favouritePlace .place-cap{
+     flex-grow: 1;
+     padding: 0;
+     border: none;
+     box-shadow: 1px 1px 3px 2px #ece6e6;
+  }
+  .favouritePlace .place-cap:hover .img{
+    transform: scale(1.2);
+    
+  }
+  .favouritePlace .place-cap .card-img{
+    width: 100%;
+     max-height: 324px;
+     overflow: hidden;
+     border-radius: 0;
+  }
+  .favouritePlace .place-cap .card-img img{
+    max-width: 100%;
+    transition: 1s ease-in-out ;
+  }
+  
+  .favouritePlace .place-cap-text{
+     padding: 28px 40px;
+   
+  }
+  .favouritePlace .place-cap-text .evalution{
+    margin-bottom: 5px;
+   
+  }
+  
+  .place-cap-text .evalution .evalution-icon{
+     color: #ffa800;
+  }
+  .place-cap-text .evalution .evalution-text{
+      display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #939ca3;
+  }
+  .place-cap-text-title {
+    line-height: 33.6px;
+    margin: 8px 0px;
+  }
+  .place-cap-text-title h3 {
+      margin: 10px 0px;
+      font-size: 24px;
+      line-height: 28.8px;
+      color: #0b1c39;
+      font-weight: 700;
+      text-transform: capitalize;
+      word-wrap: none;
+      word-break: keep-all;
+  }
+  .place-cap-text-title h3:hover {
+      color: #014b85;
+    
+  }
+  .place-cap-text-price {
+    margin-bottom: 44px;
+  }
+  .place-cap-text-price span{
+    margin-bottom: 15px;
+    line-height: 30px;
+  }
+  .place-cap-text-price span:first-child { 
+      font-size: 20px;
+      color: #4cafa4;
+      font-weight: 700;
+      position: relative;
+  }
+  
+  .place-cap-text-price span:nth-child(2) {
+      margin-left: 3px;
+      color: #99a1a7;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+  
+  }
+  .place-cap-text .time  {
+   margin-right: 18px;
+  }
+  .place-cap-text .time span , .location span {
+   font-size: 16px;
+   line-height: 24px;
+   color: #9da5ab;
+   text-transform: capitalize;
+  }
+  .place-cap-text .time .time-icon ,
+  .place-cap-text .location .location-icon{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  

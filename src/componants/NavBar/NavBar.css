@@ -1,0 +1,114 @@
+.NavBar {
+    font-family: "Barlow Condensed", sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: #fff ;
+    box-shadow: 1px 1px 3px 1px #ebe8e8 ;
+}
+.nav{
+    margin-left: auto;
+    background-color: white;
+}
+
+.top_nav {
+    background-color: #0E1C35;
+}
+
+.top_nav .nav_link{
+    color: #fff;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+
+.nav_icon{
+    font-size: 14px;
+    color: #fff;
+}
+.nav_icon:hover {
+    transform: rotateY(180deg);
+    color: #FCA600;
+}
+
+.botom_nav {
+   box-sizing: border-box;
+}
+.botom_nav_list{
+    margin-left: auto;
+}
+.nav_list {
+   
+    text-decoration: none;
+}
+
+.botom_nav_list .nav_list span{
+ color:#014B85;
+ font-size: 18px;
+ margin-left: 25px;
+ text-transform: uppercase;
+ font-weight: 500;
+ text-decoration: none;
+ padding: 25px 0px;
+}
+.botom_nav_list .nav_list:nth-child(4) ,.botom_nav_list .nav_list:nth-child(5){
+position: relative;
+}
+
+.blogList , .pageList {
+    position: absolute;
+    top: 200%;
+    left:40% ;
+    background-color: #fff;
+    padding: 15px 10px;
+    width: 180px;
+    display: none;
+    transition: 5s ease-in-out;
+    animation: bloglist .8s  ;
+    z-index: 10;
+}
+@media (max-width :992px ){
+    .botom_nav_list .nav_list span{
+        display: block;
+       margin-bottom: 5px;
+        padding: 0;
+    }
+    .blogList , .pageList{
+        top: 100%;
+        left:9% ;
+        
+    }
+}
+
+@keyframes bloglist {
+0%{
+   transform: translateY(20px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+.blogList p , .pageList p{
+text-transform: capitalize;
+font-size: 14px;
+font-weight: 500;
+color:#014B85;
+
+}
+.blogList p:first-child , .pageList p{
+    position: relative;
+}
+.blogList p:first-child::before , .pageList p::before{
+    position: absolute;
+    content: "";
+    color: black;
+    border: 2px solid rgb(5, 5, 131);
+    width: 180px;
+    top:-93%;
+    left: -6%;
+}
+.botom_nav_list .nav_list:nth-child(4):hover .blogList , 
+.botom_nav_list .nav_list:nth-child(5):hover .pageList {
+display: block;
+}
