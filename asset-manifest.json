@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/go-trip-new-/static/css/main.e83d7def.css",
+    "main.js": "/go-trip-new-/static/js/main.1e40558a.js",
+    "static/media/h1_hero.jpg": "/go-trip-new-/static/media/h1_hero.eebe9950595a3ec16a53.jpg",
+    "static/media/video-bg.jpg": "/go-trip-new-/static/media/video-bg.edaec2b4641ecac0adfd.jpg",
+    "static/media/testimonial_bg.jpg": "/go-trip-new-/static/media/testimonial_bg.8646099ac775562f79c9.jpg",
+    "static/media/blog.jpg": "/go-trip-new-/static/media/blog.aa005a3262b897fb108a.jpg",
+    "static/media/contact_hero.jpg": "/go-trip-new-/static/media/contact_hero.9770deb55f21d1cb139b.jpg",
+    "static/media/support-img.jpg": "/go-trip-new-/static/media/support-img.00320d576f67f3fa4147.jpg",
+    "static/media/footer_bg.jpg": "/go-trip-new-/static/media/footer_bg.79447a82ee947f92efd0.jpg",
+    "static/media/services8.jpg": "/go-trip-new-/static/media/services8.a933f25f216970251777.jpg",
+    "static/media/services5.jpg": "/go-trip-new-/static/media/services5.a2eabb1b8cb5e7f292ce.jpg",
+    "static/media/services4.jpg": "/go-trip-new-/static/media/services4.21db65db576542bc084f.jpg",
+    "static/media/services6.jpg": "/go-trip-new-/static/media/services6.784ce3e6dbc24ab22b82.jpg",
+    "static/media/services9.jpg": "/go-trip-new-/static/media/services9.f65cc6d0e49f470ab9d0.jpg",
+    "static/media/services2.jpg": "/go-trip-new-/static/media/services2.ec6f0cf4f06f91be0a06.jpg",
+    "static/media/services7.jpg": "/go-trip-new-/static/media/services7.d40e77a6f2ca02f41365.jpg",
+    "static/media/services1.jpg": "/go-trip-new-/static/media/services1.06255854828daa3b49b9.jpg",
+    "static/media/services3.jpg": "/go-trip-new-/static/media/services3.19277993b2fc09a84484.jpg",
+    "index.html": "/go-trip-new-/index.html",
+    "main.e83d7def.css.map": "/go-trip-new-/static/css/main.e83d7def.css.map",
+    "main.1e40558a.js.map": "/go-trip-new-/static/js/main.1e40558a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e83d7def.css",
+    "static/js/main.1e40558a.js"
+  ]
+}
